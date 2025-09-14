@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noble Stars Academy Notifications</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #4169E1 0%, #FFB6C1 100%);
+        }
+        .notification-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .timetable-cell {
+            transition: all 0.3s ease;
+        }
+        .timetable-cell:hover {
+            background-color: #f0f8ff;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                   <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mr-4">
+                        <img src="nsa.png" alt="Noble Stars Academy Logo" class="w-full h-full object-contain">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl md:text-3xl font-bold">Noble Stars Academy</h1>
+                        <p class="text-sm md:text-base italic">"Soaring to Shine and Reign"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden">
+        <div class="container mx-auto px-4 py-16 md:py-24 text-center">
+            <div class="max-w-3xl mx-auto" data-aos="fade-up">
+                <h2 class="text-3xl md:text-5xl font-bold text-blue-800 mb-4">Notifications and Test/Exam Timetables</h2>
+                <p class="text-lg md:text-xl text-gray-600 mb-8">Check here for imprtant information and updates. Upcoming test and exam timetables are also availabe here.</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#notifications" class="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-medium transition">View Notifications</a>
+                    <a href="#timetable" class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-lg font-medium transition">Check Test/Exam Timetable</a>
+                </div>
+            </div>
+        </div>
+        <div class="absolute inset-0 -z-10 opacity-10">
+            <div class="absolute inset-0 bg-gradient-to-b from-blue-400 to-pink-300"></div>
+        </div>
+    </section>
+
+    <!-- Notifications Section -->
+    <section id="notifications" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-blue-800 mb-2">Notifications & Updates</h2>
+                <div class="w-20 h-1 bg-pink-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Notification Card 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 notification-card transition" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-blue-700 px-4 py-2">
+                        <h3 class="text-white font-semibold flex items-center">
+                            <i data-feather="calendar" class="mr-2 w-5 h-5"></i> School Resumption
+                        </h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-700 mb-4">The new academic session begins on <span class="font-semibold text-blue-700">Monday, September 22nd, 2025</span>. All pupils are expected to resume latest by 8:00am.</p>
+                        <div class="text-sm text-gray-500 flex items-center">
+                            <i data-feather="clock" class="w-4 h-4 mr-1"></i> Posted: September 15, 2025
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Notification Card 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 notification-card transition" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-pink-500 px-4 py-2">
+                        <h3 class="text-white font-semibold flex items-center">
+                            <i data-feather="bell" class="mr-2 w-5 h-5"></i> NOTICE TO PARENTS
+                        </h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-700 mb-4">We are excited to inform you that Noble Stars Academy now has adequate and qualified teaching staff across all classes.<span class="font-semibold text-pink-500">The school has taken a new and improved shape by God’s grace, and we trust that even greater results will be achieved.</span>. Also, please be informed that a crèche section has now been established.</p>
+                        <div class="text-sm text-gray-500 flex items-center">
+                            <i data-feather="clock" class="w-4 h-4 mr-1"></i> Posted: September 15, 2025
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Notification Card 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 notification-card transition" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-blue-700 px-4 py-2">
+                        <h3 class="text-white font-semibold flex items-center">
+                            <i data-feather="alert-triangle" class="mr-2 w-5 h-5"></i> Important Announcement
+                        </h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-700 mb-4">Parents are reminded that the deadline for payment of 1st term school fees and other requirements is <span class="font-semibold text-blue-700">October 31st, 2025</span>.</p>
+                        <div class="text-sm text-gray-500 flex items-center">
+                            <i data-feather="clock" class="w-4 h-4 mr-1"></i> Posted: September 15, 2025
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Timetable Section -->
+    <section id="timetable" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-blue-800 mb-2">First Continuous Assessment Test (C.A.Test) Timetable</h2>
+                <div class="w-20 h-1 bg-pink-500 mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">First Continuous Assessment Test Schedule for 2025/2026 Session</p>
+            </div>
+            
+            <div class="overflow-x-auto bg-white rounded-lg shadow-md" data-aos="fade-up" id="timetable-section">
+  <table class="min-w-full divide-y divide-gray-200" id="timetable">
+    <thead class="bg-blue-700 text-white">
+      <tr>
+        <th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Date</th>
+        <th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Time</th>
+        <th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Subject</th>
+        <th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider">Class</th>
+      </tr>
+    </thead>
+    <tbody class="bg-white divide-y divide-gray-200">
+      <tr class="timetable-cell hover:bg-blue-50">
+        <td class="px-6 py-4 whitespace-nowrap font-medium">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+      </tr>
+      <tr class="timetable-cell hover:bg-blue-50">
+        <td class="px-6 py-4 whitespace-nowrap font-medium">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+      </tr>
+      <tr class="timetable-cell hover:bg-blue-50">
+        <td class="px-6 py-4 whitespace-nowrap font-medium">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+      </tr>
+      <tr class="timetable-cell hover:bg-blue-50">
+        <td class="px-6 py-4 whitespace-nowrap font-medium">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+      </tr>
+      <tr class="timetable-cell hover:bg-blue-50">
+        <td class="px-6 py-4 whitespace-nowrap font-medium">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+        <td class="px-6 py-4 whitespace-nowrap">Upcoming</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Download Button -->
+<div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+  <button onclick="downloadTimetable()" class="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-medium transition flex items-center justify-center">
+    <i data-feather='download' class='mr-2 w-5 h-5'></i> Download Timetable
+  </button>
+</div>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+<script>
+  function downloadTimetable() {
+    const element = document.getElementById('timetable-section');
+    html2pdf().from(element).set({
+      margin: 10,
+      filename: 'timetable.pdf',
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2 },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'landscape' }
+    }).save();
+  }
+</script>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-12 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- Contact Info -->
+                <div data-aos="fade-up">
+                    <h3 class="text-xl font-bold mb-4 text-pink-400">Contact Us</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <i data-feather="map-pin" class="mt-1 mr-3 w-5 h-5 text-blue-400"></i>
+                            <p>No33, Adedoyin Way, Beside Old NITEL, Parakin, Ile-Ife, Osun State, Nigeria</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="phone" class="mr-3 w-5 h-5 text-blue-400"></i>
+                            <p>+23480641488220</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="mail" class="mr-3 w-5 h-5 text-blue-400"></i>
+                            <p>noblestarsacademyschool@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-xl font-bold mb-4 text-pink-400">Quick Links</h3>
+                    <ul class="space-y-2">
+    <li>
+        <a href="NSA TIMETABLE.html" target="_blank" class="hover:text-baby-pink transition">
+            Timetable for 2025/2026 Session
+        </a>
+    </li>
+    <li>
+        <a href="NSA CALENDAR.html" target="_blank" class="hover:text-baby-pink transition">
+            Calendar for 2025/2026 Session
+        </a>
+    </li>
+    <li>
+        <a href="NSA FEE REQUIREMENTS.html" target="_blank" class="hover:text-baby-pink transition">
+            School Fees and Requirements
+        </a>
+    </li>
+    <li>
+        <a href="NSA NOTIFICATIONS.html" target="_blank" class="hover:text-baby-pink transition">
+            Notifications and Updates for 2025/2026
+        </a>
+    </li>
+</ul>
+                </div>
+                
+                <!-- School Motto -->
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-bold mb-4 text-pink-400">Our Motto</h3>
+                    <div class="bg-blue-900 bg-opacity-30 p-4 rounded-lg">
+                        <p class="italic text-lg">"Soaring to Shine and Reign"</p>
+                        <div class="mt-3 flex justify-center">
+                            <i data-feather="star" class="w-8 h-8 text-yellow-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-6">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Noble Stars Academy. All rights reserved.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition">
+                            <i data-feather="facebook" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition">
+                            <i data-feather="twitter" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition">
+                            <i data-feather="instagram" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
