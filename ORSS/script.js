@@ -166,7 +166,7 @@ form.addEventListener('submit', async (e) => {
         // In production, you might want to strictly show error
         
         // Option 1: Strict mode (uncomment for production)
-        showMessage('Pupil record not found. Please check your surname and class selection.', 'error');
+        showMessage('Pupil record not found. Please check your surname and class selection OR confirm that you do not owe the school any dues or fees.', 'error');
         setLoading(false);
         
         // Option 2: Demo mode - Allow access to placeholder with warning
@@ -209,5 +209,5 @@ if (window.history.replaceState) {
 
 // Console greeting for developers
 console.log('%c🏫 Noble Stars Academy Portal', 'color: #4169E1; font-size: 20px; font-weight: bold;');
-console.log('%c📝 Online Report Sheet System 2025/2026', 'color: #FF1493; font-size: 14px;');
-console.log('%c🔒 Secure Pupil Report Sheet', 'color: #666; font-size: 12px;');
+console.log('%c📝 Online Report Sheet System', 'color: #FF1493; font-size: 14px;');
+console.log('%c🔒 Secure Pupil Report Sheet System', 'color: #666; font-size: 12px;');
