@@ -209,5 +209,5 @@ if (window.history.replaceState) {
 
 // Console greeting for developers
 console.log('%c🏫 Noble Stars Academy Portal', 'color: #4169E1; font-size: 20px; font-weight: bold;');
-console.log('%cBasic Digital Literacy 2025/2026', 'color: #FF1493; font-size: 14px;');
-console.log('%c🔒 Secure Pupil Report Sheet System', 'color: #666; font-size: 12px;');
+console.log('%c📝 Online Report Sheet System 2025/2026', 'color: #FF1493; font-size: 14px;');
+console.log('%c🔒 Secure Pupil Report Sheet', 'color: #666; font-size: 12px;');
