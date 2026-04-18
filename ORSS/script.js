@@ -5,20 +5,20 @@ lucide.createIcons();
 // Format: 'SURNAME-CLASS': 'https://drive.google.com/your-link-here'
 const pupilDatabase = {
     // Example entries - Replace with your actual pupil data
-    'FOLARIN-Primary4': 'https://drive.google.com/file/d/1tFUMuEwZ68_ML-UJVCaxp2e8KxKwdK_f/view?usp=drive_link',
-    'EGBUNA-Primary4': 'https://drive.google.com/file/d/1low-m8nB0TdWVH8k-abcujgU604K-NRZ/view?usp=drive_link',
-    'OYEBODE-Primary2': 'https://drive.google.com/file/d/1jsNIbgoA8Vgi06yE6wfP1mG2fUpZLgka/view?usp=drive_link',
-    'ADEWUMI-Primary2': 'https://drive.google.com/file/d/1ZUTx8yYSKw4394_BaZhgCE3bXleYe2nR/view?usp=drive_link',
-    'ABIDOYE-Primary2': 'https://drive.google.com/file/d/1qQfLylMx5VjSWn33YO7Lt2jbTGMUo2Y0/view?usp=drive_link',
-    'RAJI-Primary2': 'https://drive.google.com/file/d/1PhL88_I754iTef7nbWlOTbPbTKOPaqpG/view?usp=drive_link',
-    'OKUNOLA-Primary2': 'https://drive.google.com/file/d/1gxNdWdQi3CznLAhzhHrbwxOFah4fYLoT/view?usp=drive_link',
-    'OYEBODE-Primary4': 'https://drive.google.com/file/d/12CuwGz1YE4rMiPjA_VBh1os_wgFZHv8L/view?usp=drive_link',
-    'ADEOSUN-Primary2': 'https://drive.google.com/file/d/1otYzToeV8AnnVdwk-kCzxvKpSDW65BvI/view?usp=drive_link',
-    'IYIOLA-Primary4': 'https://drive.google.com/file/d/1fCn02UPNUznsc87NAbYMxkb6YFpjyhK1/view?usp=drive_link',
-    'ADEKUNLE-Primary4': 'https://drive.google.com/file/d/119F9Sy9Q-XSUpwHOUwTsi-CW4JLyml1a/view?usp=drive_link',
-    'ROLLAND-Primary4': 'https://drive.google.com/file/d/139GZ6n-cjyT29qaA_ygwWZyoa1S4jH9S/view?usp=drive_link',
-    'OBI-Primary3': 'https://drive.google.com/file/d/17mNVnIbnHzK8jZJYD1Wvsvt_qSGO8ZR2/view?usp=drive_link',
-    'ADEKOYA-Primary4': 'https://drive.google.com/file/d/1E72ReXKaYwlQwdHBI2hEIWHGDRfXyeIh/view?usp=drive_link'
+    'FOLARIN-Primary4-SecondTerm-S2526': 'https://drive.google.com/file/d/1tFUMuEwZ68_ML-UJVCaxp2e8KxKwdK_f/view?usp=drive_link',
+    'EGBUNA-Primary4-SecondTerm-S2526': 'https://drive.google.com/file/d/1low-m8nB0TdWVH8k-abcujgU604K-NRZ/view?usp=drive_link',
+    'OYEBODE-Primary2-SecondTerm-S2526': 'https://drive.google.com/file/d/1jsNIbgoA8Vgi06yE6wfP1mG2fUpZLgka/view?usp=drive_link',
+    'ADEWUMI-Primary2-SecondTerm-S2526': 'https://drive.google.com/file/d/1ZUTx8yYSKw4394_BaZhgCE3bXleYe2nR/view?usp=drive_link',
+    'ABIDOYE-Primary2-SecondTerm-S2526': 'https://drive.google.com/file/d/1qQfLylMx5VjSWn33YO7Lt2jbTGMUo2Y0/view?usp=drive_link',
+    'RAJI-Primary2-SecondTerm-S2526': 'https://drive.google.com/file/d/1PhL88_I754iTef7nbWlOTbPbTKOPaqpG/view?usp=drive_link',
+    'OKUNOLA-Primary2-SecondTerm-S2526': 'https://drive.google.com/file/d/1gxNdWdQi3CznLAhzhHrbwxOFah4fYLoT/view?usp=drive_link',
+    'OYEBODE-Primary4-SecondTerm-S2526': 'https://drive.google.com/file/d/12CuwGz1YE4rMiPjA_VBh1os_wgFZHv8L/view?usp=drive_link',
+    'ADEOSUN-Primary2-SecondTerm-S2526': 'https://drive.google.com/file/d/1otYzToeV8AnnVdwk-kCzxvKpSDW65BvI/view?usp=drive_link',
+    'IYIOLA-Primary4-SecondTerm-S2526': 'https://drive.google.com/file/d/1fCn02UPNUznsc87NAbYMxkb6YFpjyhK1/view?usp=drive_link',
+    'ADEKUNLE-Primary4-SecondTerm-S2526': 'https://drive.google.com/file/d/119F9Sy9Q-XSUpwHOUwTsi-CW4JLyml1a/view?usp=drive_link',
+    'ROLLAND-Primary4-SecondTerm-S2526': 'https://drive.google.com/file/d/139GZ6n-cjyT29qaA_ygwWZyoa1S4jH9S/view?usp=drive_link',
+    'OBI-Primary3-SecondTerm-S2526': 'https://drive.google.com/file/d/17mNVnIbnHzK8jZJYD1Wvsvt_qSGO8ZR2/view?usp=drive_link',
+    'ADEKOYA-Primary4-SecondTerm-S2526': 'https://drive.google.com/file/d/1E72ReXKaYwlQwdHBI2hEIWHGDRfXyeIh/view?usp=drive_link'
 };
 
 // DOM Elements
@@ -33,6 +33,10 @@ const surnameError = document.getElementById('surnameError');
 const classError = document.getElementById('classError');
 const messageContainer = document.getElementById('messageContainer');
 const messageText = document.getElementById('messageText');
+const termSelect = document.getElementById('termSelect');
+const termError = document.getElementById('termError');
+const sessionSelect = document.getElementById('sessionSelect');
+const sessionError = document.getElementById('sessionError');
 
 // Utility Functions
 function showError(element, show) {
@@ -83,8 +87,8 @@ function normalizeInput(surname) {
     return surname.trim().toUpperCase().replace(/\s+/g, '');
 }
 
-function constructKey(surname, className) {
-    return `${normalizeInput(surname)}-${className}`;
+function constructKey(surname, className, term, session) {
+    return `${normalizeInput(surname)}-${className}-${term.replace(/\s+/g, '')}-${session}`;
 }
 
 // Form Validation
@@ -114,6 +118,30 @@ function validateForm() {
         classSelect.classList.remove('border-red-400', 'focus:border-red-400', 'focus:ring-red-400/20');
         classSelect.classList.add('border-transparent', 'focus:border-fuchsia-500', 'focus:ring-fuchsia-500/20');
     }
+
+    // Validate Term
+    if (!termSelect.value) {
+        showError(termError, true);
+        termSelect.classList.add('border-red-400', 'focus:border-red-400', 'focus:ring-red-400/20');
+        termSelect.classList.remove('border-transparent', 'focus:border-fuchsia-500', 'focus:ring-fuchsia-500/20');
+        isValid = false;
+    } else {
+        showError(termError, false);
+        termSelect.classList.remove('border-red-400', 'focus:border-red-400', 'focus:ring-red-400/20');
+        termSelect.classList.add('border-transparent', 'focus:border-fuchsia-500', 'focus:ring-fuchsia-500/20');
+    }
+
+    // Validate Session
+    if (!sessionSelect.value) {
+        showError(sessionError, true);
+        sessionSelect.classList.add('border-red-400', 'focus:border-red-400', 'focus:ring-red-400/20');
+        sessionSelect.classList.remove('border-transparent', 'focus:border-fuchsia-500', 'focus:ring-fuchsia-500/20');
+        isValid = false;
+    } else {
+        showError(sessionError, false);
+        sessionSelect.classList.remove('border-red-400', 'focus:border-red-400', 'focus:ring-red-400/20');
+        sessionSelect.classList.add('border-transparent', 'focus:border-fuchsia-500', 'focus:ring-fuchsia-500/20');
+    }
     
     return isValid;
 }
@@ -136,7 +164,9 @@ form.addEventListener('submit', async (e) => {
     // Get values
     const surname = surnameInput.value;
     const pupilClass = classSelect.value;
-    const key = constructKey(surname, pupilClass);
+    const term = termSelect.value;
+    const session = sessionSelect.value;
+    const key = constructKey(surname, pupilClass, term, session);
     
     // Show loading state
     setLoading(true);
@@ -192,6 +222,22 @@ classSelect.addEventListener('change', () => {
         showError(classError, false);
         classSelect.classList.remove('border-red-400', 'focus:border-red-400', 'focus:ring-red-400/20');
         classSelect.classList.add('border-transparent', 'focus:border-fuchsia-500', 'focus:ring-fuchsia-500/20');
+    }
+});
+
+termSelect.addEventListener('change', () => {
+    if (termSelect.value) {
+        showError(termError, false);
+        termSelect.classList.remove('border-red-400', 'focus:border-red-400', 'focus:ring-red-400/20');
+        termSelect.classList.add('border-transparent', 'focus:border-fuchsia-500', 'focus:ring-fuchsia-500/20');
+    }
+});
+
+sessionSelect.addEventListener('change', () => {
+    if (sessionSelect.value) {
+        showError(sessionError, false);
+        sessionSelect.classList.remove('border-red-400', 'focus:border-red-400', 'focus:ring-red-400/20');
+        sessionSelect.classList.add('border-transparent', 'focus:border-fuchsia-500', 'focus:ring-fuchsia-500/20');
     }
 });
 
