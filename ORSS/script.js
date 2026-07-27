@@ -23,7 +23,16 @@ const pupilDatabase = {
     'ONI-Primary1-ThirdTerm-S2526': 'https://drive.google.com/file/d/19ckhEu9Q7aLo9TT9uUL3lVR2OgW6ty8F/view?usp=drivesdk',
     'PRINCE-Primary1-ThirdTerm-S2526': 'https://drive.google.com/file/d/1VLTN92wIqOSWRbvPTaxkG7lfaJT2HadK/view?usp=drivesdk',
     'SALAWU-Primary1-ThirdTerm-S2526': 'https://drive.google.com/file/d/10vDF_bJQ8RPMwpeshQO96uEUG9eyTqnE/view?usp=drivesdk',
-    'ADEOSUN-Kindergaten1-ThirdTerm-S2526': '
+    'ADEOSUN-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1XSTujWtplaJXtEJMLEQGYepAeLfF75xJ/view?usp=drivesdk',
+    'BABARINDE-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1-ZA-SmyzlhX7S8vg2Tk0gCDYGd3l0Hdh/view?usp=drivesdk',
+    'KAYODE-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1Z4FuE6MoagzD6oevPEn4qkDQ1TkBuuB5/view?usp=drivesdk',
+    'MAKINWA-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/12SWEFl_RliO4vbAuXbeZcmP9948OCI-p/view?usp=drivesdk',
+    'OBADIAH-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1C9yzRDXXLDfoeyxbSIw2YV8EhhTmmoPQ/view?usp=drivesdk',
+    'OBI-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1CxYO4gC9Dr89u6bunHsc3brec5kXQo34/view?usp=drivesdk',
+    'OKECHUKWU-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1DkVLyNIFJUHeyzjKWu3truNaU1KCQ-8X/view?usp=drivesdk',
+    'OLABODE-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1CxYO4gC9Dr89u6bunHsc3brec5kXQo34/view?usp=drivesdk',
+    'OYEBODE-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1ZaG48mbd76Ohb5UFTFmdBzf4O8OeTo86/view?usp=drivesdk',
+    'OYEWOLE-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1IDbMzHuf2QJkfzoSu9kNeyghVfMlBazL/view?usp=drivesdk'
 };
 
 // DOM Elements
