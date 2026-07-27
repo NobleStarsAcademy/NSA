@@ -23,7 +23,7 @@ const pupilDatabase = {
     'ONI-Primary1-ThirdTerm-S2526': 'https://drive.google.com/file/d/19ckhEu9Q7aLo9TT9uUL3lVR2OgW6ty8F/view?usp=drivesdk',
     'PRINCE-Primary1-ThirdTerm-S2526': 'https://drive.google.com/file/d/1VLTN92wIqOSWRbvPTaxkG7lfaJT2HadK/view?usp=drivesdk',
     'SALAWU-Primary1-ThirdTerm-S2526': 'https://drive.google.com/file/d/10vDF_bJQ8RPMwpeshQO96uEUG9eyTqnE/view?usp=drivesdk',
-    'ADEOSUN-KG1-ThirdTerm-S2526': '
+    'ADEOSUN-Kindergaten1-ThirdTerm-S2526': '
 };
 
 // DOM Elements
