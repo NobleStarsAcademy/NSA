@@ -17,13 +17,13 @@ const pupilDatabase = {
     'IYIOLA-Primary4-SecondTerm-S2526': 'https://drive.google.com/file/d/1fCn02UPNUznsc87NAbYMxkb6YFpjyhK1/view?usp=drive_link',
     'ADEKUNLE-Primary4-SecondTerm-S2526': 'https://drive.google.com/file/d/119F9Sy9Q-XSUpwHOUwTsi-CW4JLyml1a/view?usp=drive_link',
     'ROLLAND-Primary4-SecondTerm-S2526': 'https://drive.google.com/file/d/139GZ6n-cjyT29qaA_ygwWZyoa1S4jH9S/view?usp=drive_link',
-    'OBI-Primary3-SecondTerm-S2526': 'https://drive.google.com/file/d/17mNVnIbnHzK8jZJYD1Wvsvt_qSGO8ZR2/view?usp=drive_link',
+    'OBI-Primary3-ThirdTerm-S2526': 'https://drive.google.com/file/d/1EuHIyB8oatrBUVTsd_n_ARqnvDxSasaS/view?usp=drivesdk',
     'ADEKOYA-Primary4-SecondTerm-S2526': 'https://drive.google.com/file/d/1E72ReXKaYwlQwdHBI2hEIWHGDRfXyeIh/view?usp=drive_link',
     'AKINSOLA-Primary1-ThirdTerm-S2526': 'https://drive.google.com/file/d/1zaE2U90OcQViY4D_G9nGC_LsMgbIxyui/view?usp=drivesdk',
     'EGBUNA-Primary1-ThirdTerm-S2526': 'https://drive.google.com/file/d/1abt_22OnRzMyKc05M3zi6TQfO-66TMPQ/view?usp=drivesdk',
     'ONI-Primary1-ThirdTerm-S2526': 'https://drive.google.com/file/d/19ckhEu9Q7aLo9TT9uUL3lVR2OgW6ty8F/view?usp=drivesdk',
     'PRINCE-Primary1-ThirdTerm-S2526': 'https://drive.google.com/file/d/1VLTN92wIqOSWRbvPTaxkG7lfaJT2HadK/view?usp=drivesdk',
-    'SALAWU-Primary1-ThirdTerm-S2526': 'https://drive.google.com/file/d/17Uo10SH11I-PCTk4diSuas0EMwlLidMQ/view?usp=drivesdk'
+    'SALAWU-Primary1-ThirdTerm-S2526': 'https://drive.google.com/file/d/10vDF_bJQ8RPMwpeshQO96uEUG9eyTqnE/view?usp=drivesdk'
 };
 
 // DOM Elements
