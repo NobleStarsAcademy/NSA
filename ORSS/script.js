@@ -6,7 +6,7 @@ lucide.createIcons();
 const pupilDatabase = {
     // Example entries - Replace with your actual pupil data
     'FOLARIN-Primary4-ThirdTerm-S2526': 'https://drive.google.com/file/d/1cDx1ISrxSA2gMEK1e0xiLEkSDUF0y0mr/view?usp=drivesdk',
-    'EGBUNA-Primary4-SecondTerm-S2526': '',
+    'EGBUNA-Primary4-ThirdTerm-S2526': 'https://drive.google.com/file/d/14OD0c-XcBX81WLMelCtc2I65Q9qY8c3V/view?usp=drivesdk',
     'OYEBODE-Primary2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1hZCZqWF_XkgHn8JrTSSKh8wk74DMXlmW/view?usp=drivesdk',
     'ADEWUMI-Primary2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1kEs6KC7YLs5GrXRSXIfjUL3Me086Gbzl/view?usp=drivesdk',
     'ABIDOYE-Primary2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1xxwZnlfiSm06f2YKvL8hDEcQkuRTVrqL/view?usp=drivesdk',
