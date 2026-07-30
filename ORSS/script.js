@@ -32,7 +32,7 @@ const pupilDatabase = {
     'OKECHUKWU-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1FP5wC9rANhbi5gI5dDCRU_648aTBqqZt/view?usp=drivesdk',
     'OLABODE-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1188Whi5hW4lHKWLdPCav71r1RogF7r4E/view?usp=drivesdk',
     'OYEBODE-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1-dkfTSObSQTN3qv5EHGhQwr8cq9eK5yi/view?usp=drivesdk',
-    'OYEWOLE-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1PTLd2geZRI-nnGbSeumsGNxJ35q8TO0j/view?usp=drivesdk'
+    'OYEWOLE-Kindergaten2-ThirdTerm-S2526': 'https://drive.google.com/file/d/1TGctG7F2E1W7XHuo4ncVtKhyBUk5CEuk/view?usp=drivesdk'
 };
 
 // DOM Elements
